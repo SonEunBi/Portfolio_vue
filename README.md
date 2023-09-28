@@ -1,24 +1,28 @@
-# portfolio
+# Portfolio
+포트폴리오
 
-## Project setup
-```
-npm install
-```
+## 💡 프로젝트 소개
+개인 포트폴리오를 vue로 만들었습니다.
+<br/>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## ⏰ 개발 기간
+* 20.03.02일 - 20.04.02일
+<br/>
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 💻 사용 언어
+- vue
+- Node.js
+<br/>
 
-### Lints and fixes files
-```
-npm run lint
-```
+## ☑️ 구성
+1. 개발 목표
+2. 기술 스택
+3. 수행한 프로젝트
+4. 연락처
+<br/>
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## ‼️ 프로젝트 버전
+- **node-sass** : 6.0.1<br/>
+- **sass-loader** : 10.4.1<br/>
+- **webpack** : 4.0.0<br/>
+- **Node** : 16.17.1
