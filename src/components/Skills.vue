@@ -6,7 +6,8 @@
       <div class="skills_list">
         <div v-for="skills in skillsList" :key="skills.id" class="skills_list_item">
           <div class="skills_image">
-            <img :src="skills.image" class="image" />
+            <!-- 이미지 너비 -->
+            <img :src="skills.image"  class="image" width="100px" />
           </div>
           <div class="skills_text">
             <div class="skills_text_wrapper">
@@ -25,7 +26,7 @@
     data() {
       return {
         skillsList: [
-          { image: require('@/assets/img_html.png'), text: 'HTML' },
+          { image: require('@/assets/img_html.png') , text: 'HTML' },
           { image: require('@/assets/img_css.png'), text: 'CSS' },
           { image: require('@/assets/img_as.png'), text: 'Android' },
         ],
@@ -50,7 +51,7 @@
         text-align: left;
 
         .skills_top {
-          margin: 92px 0px 0px 0px;
+          margin: 80px 0px 0px 0px;
           display: inline-block;
           position: relative;
           font-weight: bold;
@@ -58,7 +59,7 @@
 
         .skills_top:after {
           content: '';
-          width: 147px;
+          width: 100px;
           position: absolute;
           left: 0px;
           bottom: -11px;
@@ -72,7 +73,8 @@
           margin-top: 90px;
 
           .skills_list_item {
-            margin-right: 5%;
+            margin-right: 10%;
+            
 
             &:hover {
               transform: scale(1.05);
@@ -91,8 +93,8 @@
               display: inline-flex;
               align-items: center;
               justify-content: center;
-              width: 278px;
-              height: 278px;
+              width: 158px;
+              height: 158px;
               border-radius: 50%;
               background: #ffffff;
             }
@@ -170,14 +172,14 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 80%;
+            width: 75%;
             margin-left: 10%;
             margin-top: 40px;
             border-radius: 50%;
             background: #ffffff;
 
             .image {
-              width: 100%;
+              width: 95%;
             }
           }
 
