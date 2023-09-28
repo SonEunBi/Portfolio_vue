@@ -22,7 +22,7 @@
 <br/>
 
 ## 프로젝트 버전
-- **node-sass** : 6.0.1
-- **sass-loader** : 10.4.1
-- **webpack** : 4.0.0
+- **node-sass** : 6.0.1<br/>
+- **sass-loader** : 10.4.1<br/>
+- **webpack** : 4.0.0<br/>
 - **Node** : 16.17.1
