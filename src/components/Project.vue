@@ -57,13 +57,13 @@
             date: '제작 기간 : 2020 . 03 ~ 2020 . 04',
           },
           {
-            image: require('./../assets/awards_1.png'),
+            image: require('./../assets/awards_1.jpg'),
             title: '(KYIC)대한민국 청소년 발명 아이디어 경진대회',
             content: '금상',
             date: '2017 . 04 ~ 2017 . 05',
           },
           {
-            image: require('./../assets/awards_2.png'),
+            image: require('./../assets/awards_2.jpg'),
             title: '독립기념관 혁신 아이디어 공모전',
             content: '아이디어상',
             date: '2019 . 06 ~ 2019 . 07',
