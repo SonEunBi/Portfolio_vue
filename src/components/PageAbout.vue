@@ -1,15 +1,16 @@
 <template>
   <div class="About">
     <div class="page_container">
-      <p class="page_title">About</p>
+      <p class="page_title">About Me</p>
 
       <div class="page_purpose">
-        <p>어필하고 싶은 자신의 장점과</p>
-        <p>앞으로 해내고 싶은 목표에 대해서 작성해봅시다.</p>
+        <p>사용자를 위한 개발자</p>
+        
       </div>
 
       <div class="page_detail">
-        <p>좀 더 자세하고 세부적이며 길게 늘여서 쓸만한 자신의 이야기를 작성해봅시다.</p>
+        <p>저는 아이디어를 구현하기 위해 개발을 시작했습니다.<br/> 이후 여러 프로젝트에 참여하며 아이디어를 직접 개발하며 서비스의 흐름을 체득하려고 노력하였습니다.<br/>
+          계속해서 사용자를 위한 서비스를 제공하기 위해 프로그램을 개발하는 개발자가 되겠습니다.</p>
       </div>
     </div>
   </div>
