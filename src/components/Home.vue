@@ -5,8 +5,7 @@
     </div>
 
     <div class="home_title">
-      <p class="text">포트폴리오 사이트를</p>
-      <p class="text">만들었습니다.</p>
+      <p class="text">포트폴리오 사이트</p>
       <p class="text_bold">Developer 손은비 입니다.</p>
     </div>
 

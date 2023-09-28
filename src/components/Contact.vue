@@ -3,16 +3,21 @@
     <div class="contact_container">
       <p class="contact_top">Contact</p>
 
-      <div class="contact_emailImage">
+      <!-- <div class="contact_emailImage">
         <img src="@/assets/img_email.png" />
-      </div>
+      </div> -->
+
+      <div class="contact_gitImage">
+        <a href = "https://github.com/SonEunBi">
+        <img src="@/assets/GIT.png" width = "90" />
+      </a></div>
 
       <div class="contact_area">
         <p>SEOUL, SOUTH KOREA</p>
       </div>
 
       <div class="contact_email">
-        <p>SonEunBi@portfolio.co.kr / 010 - 1234 - 5678</p>
+        <p>beeee7147@gmail.com</p>
       </div>
     </div>
   </div>
@@ -37,7 +42,7 @@
         text-align: left;
 
         .contact_top {
-          margin: 92px 0px 0px 0px;
+          margin: 92px 0px 90px 0px;
           display: inline-block;
           position: relative;
           font-weight: bold;
