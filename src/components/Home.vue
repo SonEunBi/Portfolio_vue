@@ -1,10 +1,14 @@
+<link href="https://cdn.jsdelivr.net/npm/animate.css@3.5.1" rel="stylesheet" type="text/css"></link>
 <template>
   <div class="home_container">
     <div class="home_nav">
       <button v-for="menu in menuList" :key="menu.id" @click="move(menu)">{{ menu }}</button>
     </div>
 
+
+
     <div class="home_title">
+      
       <p class="text">포트폴리오 사이트</p>
       <p class="text_bold">Developer 손은비 입니다.</p>
     </div>
