@@ -83,12 +83,12 @@
 <style lang="scss" scoped>
   @media (min-width: 800px) {
     .project {
-      width: 100%;
+      width:100%;
       background: #827c7c;
       color: var(--title-color);
 
       .project_container {
-        width: 1100px;
+        width: 1330px;
         margin: auto;
         padding-bottom: 100px;
         font-size: 72px;
@@ -104,7 +104,7 @@
 
         .project_top:after {
           content: '';
-          width: 163px;
+          width: 133px;
           position: absolute;
           left: 0;
           bottom: -14px;
@@ -118,38 +118,40 @@
           flex-wrap: wrap;
 
           .project_item {
-            width: 45%;
-            margin-left: 5%;
+            width: 35%;
+            margin-left: 7%;
+            margin-right :7%;
             margin-top: 100px;
+            
             display: inline-block;
 
             img {
-              width: 90%;
+              width: 100%;
               margin: 0px;
             }
 
             .project_title {
               margin: 10px 0% 40px 0px;
               font-weight: 580;
-              font-size: 38px;
+              font-size: 30px;
             }
 
             .project_content {
-              margin: 4px 10% 0px 0px;
-              font-size: 29px;
+              margin: 4px 0% 0% 0px;
+              font-size: 21px;
               word-break: break-all;
               // color: #d8cdb5e1;
               color: #c5c4c2e1;
             }
             .project_language {
               margin: 25px 0px 10px 0px;
-              font-size: 25px;
+              font-size: 18px;
               color: #171414;
             }
 
             .project_date {
-              margin: 25px 0px 0px 0px;
-              font-size: 25px;
+              margin: 10px 0px 0px 0px;
+              font-size: 18px;
               color: #171414;
             }
           }

@@ -8,7 +8,8 @@
     <div class="home_title">
       
       <p class="text"></p>
-      <p class="text_bold" float=left;>Developer 손은비 입니다</p>
+      <p class="text_bold" float=left;>Developer
+      손은비 입니다</p>
       <p class ="text_blinking" float=left;>.</p>
     </div>
 

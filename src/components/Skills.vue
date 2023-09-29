@@ -5,10 +5,12 @@
 
       <div class="skills_list">
         <div v-for="skills in skillsList" :key="skills.id" class="skills_list_item">
+
           <div class="skills_image">
             <!-- 이미지 너비 -->
             <img :src="skills.image"  class="image" width="100px" />
           </div>
+          
           <div class="skills_text">
             <div class="skills_text_wrapper">
               {{ skills.text }}
@@ -17,6 +19,10 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="certification"><p>Certification</p>
+    
+    <p class="detail">정보처리기사&emsp;&emsp;||&emsp;&emsp;SQLD&emsp;&emsp;||&emsp;&emsp;ADsP&emsp;&emsp;||&emsp;&emsp;컴퓨터 활용능력 1급&emsp;&emsp;||&emsp;&emsp;OPIC IM3&emsp;&emsp;||&emsp;&emsp;TOEIC 850</p>
     </div>
   </div>
 </template>
@@ -37,6 +43,21 @@
 
 <style lang="scss">
   @media (min-width: 801px) {
+    .certification {
+          padding-bottom: 50px;
+          font-size: 50px;
+          font-weight:bold;
+          
+          text-align: left;
+          .detail {
+            
+          margin: 10px 0px 0px 0px;
+          padding-top: 10px;
+          font-size: 25px;
+          text-align: left;
+        }
+        }
+        
     .skills {
       width: 100%;
       background: #eff0f2;
@@ -64,8 +85,9 @@
           left: 0px;
           bottom: -11px;
           border-width: 0 0 6px;
-          border-style: solid;
+          border-style: solid; 
         }
+        
 
         .skills_list {
           display: flex;
@@ -103,7 +125,7 @@
               width: 100%;
               height: 80px;
               margin-top: 10px;
-              font-size: 48px;
+              font-size: 35px;
               text-align: center;
               font-weight: bold;
 
